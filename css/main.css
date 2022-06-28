@@ -1,0 +1,177 @@
+#header #headerContents {width: 100%; max-width:1400px; height:100px; margin: auto;}
+#header #headerLeft {width:30%; min-width: 190px; height: 100%; float: left; }
+#header #headerLeft #logo {min-width: 190px; margin-left: 25px;}
+#header #headerLeft #logo img {width: 186px;margin-top: 27px;}
+
+#header #headerRight {width: 70%; height: 100%; text-align: right; float: right;}
+#header #headerRightTop {width: calc(100% - 80px); max-width: 920px; height: 50%; display: block; margin-right: auto;}
+#header #headerRightTop a {height: 100%; margin:0 15px; display: inline-block; font-size: 14px; font-weight: lighter;}/*여기 잘안됨*/
+#header #headerRightTop img {width: 30px; height: 30px; color: white; margin-top: 10px }
+
+#header #headerRightBottom {width: calc(100% - 80px); max-width: 920px; height: 50%; display: block; margin-right: auto;}
+#header #headerRightBottom .headUL div {height: 200px;}
+
+#header #headerRightBottom ul {text-align: left; display: none; position: absolute; border-top: 2px solid #b21e23; margin-top: 10px; background-color: rgba(0,0,0,0.7); overflow-y: hidden; z-index: 5;}
+#header #headerRightBottom ul li{ height: 40px; border-bottom: 1px solid rgba(0,0,0,0.3); margin: 2px; vertical-align: center; }
+#header #headerRightBottom ul li hover { height: 40px; background-color: #b21e23;}
+
+#header #headerRightBottom button {background: none; border: none; font-size: 15px; font-weight: bold; position: relative;}
+#header #headerRightBottom button:hover{color: #b21e23;}
+#header #headerRightBottom div { height: 100%; text-align: center; }
+#header #headerRightBottom #headInnerRight {width: 180px; display: inline-block;}
+#header #headerRightBottom .btn_round_red {background-color: #b21e23; border-radius: 15px; line-height: 20px; padding: 4px 15px;}
+#header #headerRightBottom .btn_round_red:hover{color: white;}
+#header #headerRightBottom #headInnerMiddle {width: 150px; display: inline-block;}
+#header #headerRightBottom #headInnerLeft {width: 100px; display: inline-block;}
+
+
+
+#contents .bigDiv {width: 100%; height: 1000px; margin-bottom: 80px;}
+#contents .smallDiv {width:95%; margin:auto; max-width: 1380px; margin-bottom: 80px;}
+#contents .smallDiv img {width: 100%;}
+#contents #icons {width: 100%; height: 380px; margin-bottom: 80px;}
+#contents .fullVideo video{width: 100%; display: inline-block; }
+#contents .fullImage img {width: 100%; }
+
+#contents .rotate .slideContentsWrap {width:100%; height: 900px; position: relative; z-index: auto; overflow: hidden;}
+#contents .rotate .slideContentsWrap ul li { display: inline-block; vertical-align: top;}
+#contents .rotate .slideContentsWrap ul li .slideInside{width:100%; display: inline-block; position: relative}
+#contents .rotate .slideContentsWrap ul li video {width: 100%; height: 100%;  float: left;}
+#contents .rotate .slideContentsWrap ul li img {width: 100%; height: 100%;  float: left;}
+#contents .rotate .slideContentsWrap ul li .titleBox {overflow: hidden; position: absolute; z-index: 1;}
+
+#contents .rotate .slideContentsWrap .slideContents {width:100%; height: 100%; margin-left: 0;  white-space: nowrap; position: absolute;}
+#contents .rotate .slideContentsWrap .slideContents li {margin: 0;}
+
+#contents .rotate .slideContentsWrap .leftRight {width:100%; position: absolute; top: calc(50% - 11px)}
+#contents .rotate .slideContentsWrap .leftRight a {width: 47px; height: 79px; background-color: rgba(0,0,0,0.7); text-align: center;}
+#contents .rotate .slideContentsWrap .leftRight a:hover svg {fill: #b21e23;}
+#contents .rotate .slideContentsWrap .leftRight a svg {width: 14px; height: 23px; fill: white; margin-top: 55%; }
+
+#contents .rotate .slideContentsWrap .leftRight #leftBtn {float: left}
+#contents .rotate .slideContentsWrap .leftRight #rightBtn {float: right}
+
+
+
+#contents .rotate .slideContentsWrap .slideButton {text-align: center; position: absolute; margin-left:calc(50% - 30px); z-index: 1; vertical-align: bottom; bottom: 100px;}
+#contents .rotate .slideContentsWrap .slideButton li {float: left; margin-left: 5px;}
+#contents .rotate .slideContentsWrap .slideButton li button{width:20px; height: 10px; left: 6px; transform: skew(-36deg); transform-origin: top; background: gray; display: inline-block; border: none;}
+#contents .rotate .slideContentsWrap .slideButton li button :hover {width:20px; background: #b21e23;}
+
+
+
+#contents .titleBox {width: 460px; position:absolute; background-color: rgba(0,0,0,0.7);display: block; margin-top: 40px; margin-left:60px; padding: 14px; z-index: 2;}
+#contents .titleBox.noDescription {height: 230px;}
+#contents .titleBox.withDescription {height: 300px;}
+#contents .titleBox.withDescription h5{font-size: 18px; margin-top: 10px;}
+
+#contents .floatLine {text-align: center; background-color: rgba(0,0,0,0.7); display: block; position: absolute; line-height: 30px; padding-right: 5px; padding-left: 5px;  z-index: 4; bottom: 20px; margin-left: calc(50% - 329px);}
+
+#contents #cls53Video{position: relative; z-index: 1;}
+#contents #mouse {width: 30px; height: 70px; position: absolute; display: block; bottom: -50px; z-index: 3; margin-left: calc(50% - 15px);}
+#contents #mouse a {width: 100%; height: 100%}
+
+#contents .titleBox .subtitle{ width: 50px; text-overflow: inherit; margin-top: 15px; padding-bottom: 5px; border-bottom: 1px solid #b21e23; overflow-x: visible;}
+#contents .titleBox .subtitle h3{ font-size: 16px; font-weight: bold;}
+#contents .titleBox .title{margin-top: 15px; }
+#contents .titleBox .title h2{font-weight: bolder; font-size: 26px;}
+
+#contents .titleBoxBottom button{width:115px; font-size: 16px; line-height: 20px;height: 42px;margin-right: 10px; margin-top: 40px; outline: none; padding: 2px 14px 3px;}
+#contents .titleBox .titleBoxBottom .biggerBtn {width:140px; }
+#contents .titleBoxBottom .btn_red{ border: 1px solid #b21e23;color: #fff;background-color: #b21e23;}
+#contents .titleBox .titleBoxBottom .btn_no_color{border: 1px solid #fff;color: #fff;background-color:rgba(255, 255, 255, 0); position: relative; }
+#contents .titleBox .titleBoxBottom .btn_no_color:hover{border: 1px solid #b21e23; color: #fff;background-color: #b21e23;}
+
+#contents #drivingAcademy .titleBox {height:250px;}
+
+#contents .smallDiv .titleBox {width: 300px;}
+#contents .smallDiv .titleBox .title{margin-bottom: 50px;}
+#contents .smallDiv .titleBox .title h2{font-weight: bold;}
+#contents .smallDiv .titleBox .titleBoxDescription{margin-bottom: 50px;}
+#contents .smallDiv .titleBox .titleBoxDescription h5{font-size:16px; font-weight: bold;}
+#contents .smallDiv .titleBox .titleBoxDescription button svg{fill: white; height: 16px; width: 10px; display: inline-block;}
+
+#contents .smallDiv .titleBox .titleBoxBottom .btn_red{ border: 1px solid #b21e23;color: #fff;background-color: #b21e23;}
+
+#contents #AMGCareers .titleBox .title{ width: 430px;}
+
+
+#contents .sepInThree {width: 100%; height: 350px;}
+#contents .sepInThree .sepInThreeWrap{width: 1300px; height:290px;  margin: auto;}
+
+#contents .sepInThree .SITInner{width: 33%; min-width:420px; height: 288px; display: inline-block;}
+#contents .sepInThree .SITInner img {width:100%; height: 100%;}
+#contents .sepInThree .SITInner .SITInnerTop {height: 236px;}
+#contents .sepInThree .SITInner .SITInnerBottom {height: 26px; overflow-y: visible;}
+#contents .sepInThree .SITInner .SITInnerBottom h4 {font-size: 24px; font-weight: bolder;  vertical-align: top}
+
+#contents .sepInThree .SITInner .SITInnerBottom .innerTitle {height: 26px; margin-top: 45px;}
+#contents .sepInThree .SITInner .SITInnerBottom .innerDescription {margin-top: 17px;}
+#contents .sepInThree .SITInner .SITInnerBottom .innerDescription h5 {font-size: 16px; line-height: 20px; vertical-align: top}
+#contents .sepInThree .SITInner .SITInnerBottom .innerDescription p {font-size: 14px; line-height: 18px; font-weight: lighter; color: #a8a8a8;}
+
+#contents #link{height: 490px;}
+#contents #link #linksWrap {width: 1400px; height:450px;  margin: auto;}
+
+#contents #link .SITInner{width: 30%; min-width:400px; height: 288px; display: inline-block; vertical-align: top; margin-left: 28px;}
+
+#contents .slashOnIMG .slashWrap {width:95%; margin:auto; max-width: 1352px;}
+#contents .slashOnIMG .slashBox { left: 200px; width: 690px; position: absolute; transform: skew(-36deg); transform-origin: top; display: block;  height: 777px; background: rgba(0,0,0,0.7); }
+#contents .slashOnIMG .titleBox {background: none; margin-left: 110px; margin-top: 20px;}
+
+#contents #news {height: 1020px}
+
+#contents #news .dateOfNews {position: absolute; background-color: white; margin-left: 10px; padding: 7px; text-align: center; margin-top: -15px;}
+#contents #news .dateOfNews h4{color: black; font-size: 14px;}
+#contents #news .dateOfNews h2{color: black; font-weight: bold; font-size: 28px;}
+
+#news #newsHeader {width: 40px; overflow-x: visible; border-top: solid 1px #b21e23; padding-top: 20px;}
+#news #newsHeader h1 { font-size: 30px; font-weight: bold;}
+
+#contents #news #topNews {width: 100%; height: 440px; display: block; margin-bottom: 80px; margin-top: 50px;}
+#contents #news #smallNews {width: 100%; height: 350px; margin-bottom: 40px; display: block;}
+
+#news #topNews #topNewsLeft {width: 49%; float: left; display: block;}
+
+#news #topNews #topNewsRight {width: 49%; float: right; display: block;}
+#news #topNews #topNewsRight #topNewsHeader{margin-top: 20px;}
+#news #topNews #topNewsRight #topNewsHeader h6 {color: #999; font-size: 14px; }
+#news #topNews #topNewsRight .title {margin-top: 10px;}
+#news #topNews #topNewsRight .title h2 {font-size: 28px; font-weight: bolder; font-family: "MBCorpoSTitle-ExtraBold-Web",sans-serif;}
+#news #topNews #topNewsRight .titleBoxDescription {margin-top: 20px;}
+#news #topNews #topNewsRight .titleBoxDescription h5 {font-size: 16px; line-height: 23px;}
+#news #topNews #topNewsRight .titleBoxBottom {width: 100%;}
+#news #topNews #topNewsRight .titleBoxBottom button {float: right; margin-top: 0}
+
+#contents #news .SITInner{width: 30%; min-width:400px; height: 288px; display: inline-block; vertical-align: top; margin-left: 28px;}
+
+#footer #footerTopWrap {background:linear-gradient(to bottom, #262626 0%, #171717 100%);}
+#footer #footerTopWrap #footerTop{max-width:1380px; margin: auto}
+#footer #footerTop #footerT{ height: 80px;  display: block;}
+#footer #footerTop #footerT a {float: right; margin-top: 30px;}
+#footer #footerTop #footerT a:hover svg {fill: #b21e23;}
+#footer #footerTop a svg {width: 18px; height: 10px; fill: white; margin-left: 20px}
+
+#footer #footerTop #footerB{ height: 85px;display: block;}
+#footer #footerTop #footerB ul{display: inline-block; margin-top: 30px;}
+#footer #footerTop #footerB ul li {height:12px; overflow: visible; display: inline-block; border-left: 1px solid #999; color: #999999; }
+#footer #footerTop #footerB ul li h6 {margin-top: -12px; overflow: visible; display: inline-block;  color: #999999; font-size: 14px; line-height: 18px;  }
+
+#footer #footerTop #footerB ul li:first-child {border-left: none; }
+
+#footer #footerTop #footerB{ height: 85px;display: block;}
+#footer #footerTop #footerB #langSelect li { padding-left: 15px; padding-right: 15px;}
+
+#footer #footerTop #footerB #AMGSNS {margin-left: 60px;}
+#footer #footerTop #footerB #AMGSNS li { border: none; margin-left: 24px;}
+#footer #footerTop #footerB #AMGSNS li svg { height: 22px; fill: #999999;}
+
+#footer #footerTop #footerB #linkOfAMG {float: right;}
+#footer #footerTop #footerB #linkOfAMG li { padding-left: 20px; padding-right: 20px; }
+#footer #footerTop #footerB #linkOfAMG li a { color: #999999; margin-top: -10px}
+#footer #footerTop #footerB #linkOfAMG li a:hover { color: #b21e23;}
+#footer #footerTop #footerB{ height: 85px;display: block;}
+
+#footer #footerBottom {max-width: 920px; margin-left: calc(50% - 676px); margin-top: 20px;}
+#footer #footerBottom p{font-size: 14px; color: #999999}
+#footer #footerBottom p a{text-decoration-line: underline;}

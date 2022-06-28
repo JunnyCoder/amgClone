@@ -1,0 +1,6 @@
+html , body {width: 100%; height: 100%; padding: 0; margin: 0;  background-color: black;}
+ul, li, p, h1, h2, h3, h4, h5, h6,button, a {padding: 0; margin: 0; font-weight: normal; color: white; font-family: "MBCorpoSTitle-ExtraBold-Web",sans-serif;}
+ul { list-style-type: none;}
+table { border-collapse: collapse;}
+a {text-decoration: none;}
+a:hover { color: #b21e23;}
